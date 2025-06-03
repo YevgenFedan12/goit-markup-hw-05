@@ -663,10 +663,19 @@ a {
     margin-bottom: 16px;
 }
 
-.form-field,
-.form-comment,
-.form-agreement {
+.form-field{
+    
+    margin-bottom: 8px;
+ }
+
+
+
+.form-comment{
     margin-bottom: 16px;
+}
+
+.form-agreement {
+    margin-bottom: 24px;
 }
 
 .form-label {
