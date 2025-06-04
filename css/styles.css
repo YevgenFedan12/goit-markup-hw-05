@@ -671,17 +671,13 @@ a {
     margin-bottom: 16px;
 }
 
-/* FORM STRUCTURE */
-.modal-form>*:not(:last-child) {
+/* FORM FIELDS */
+.form-field {
     margin-bottom: 8px;
 }
 
-.form-field:not(:last-child) {
-    margin-bottom: 16px;
-}
-
 .form-comment {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 .form-agreement {
@@ -698,7 +694,7 @@ a {
     margin-bottom: 4px;
 }
 
-/* INPUT */
+/* INPUT + ICON */
 .input-wrapper {
     position: relative;
     color: #2e2f42;
@@ -724,7 +720,6 @@ a {
     border-color: #4d5ae5;
 }
 
-/* ICON */
 .form-icon {
     position: absolute;
     top: 50%;
