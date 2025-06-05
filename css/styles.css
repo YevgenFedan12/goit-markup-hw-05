@@ -443,16 +443,22 @@ a {
 
 .footer-container {
     display: flex;
-    gap: 72px;
-    /* отступ между основными блоками */
     align-items: flex-start;
     flex-wrap: wrap;
 }
 
-.footer-info,
-.footer-social,
+.footer-info {
+    width: 264px;
+    margin-right: 80px;
+}
+
+.footer-social {
+    width: 208px;
+    margin-right: 80px;
+}
+
 .footer-subscribe {
-    flex: 1 1 264px;
+    width: 264px;
 }
 
 /* Логотип */
